@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".Login">
+
+    <ImageView
+            android:layout_width="150dp"
+            android:layout_height="155dp"
+            android:background="@drawable/firebase"
+            android:padding="15dp"
+            android:layout_marginBottom="50dp"
+            android:id="@+id/imageView"/>
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/username"
+                android:hint="Username"
+                android:padding="15dp"
+                android:layout_margin="15dp"
+                android:inputType="text"
+        />
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/password"
+                android:hint="Password"
+                android:padding="15dp"
+                android:layout_margin="15dp"
+                android:inputType="text"
+        />
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOGIN"
+                android:padding="15dp"
+                android:layout_margin="15dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/btnlogin"
+                android:layout_gravity="center"
+        />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_forgot"
+                android:padding="15dp"
+                android:layout_margin="15dp"
+                android:text="Forgot your password?"
+                android:textAlignment="center"
+                android:textColor="#3f71c1"
+
+        />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_member"
+                android:padding="15dp"
+                android:layout_margin="25dp"
+                android:text="Not a member? Get registered in Firebase now !"
+                android:textAlignment="center"
+                android:textColor="#3f71c1"
+
+        />
+
+
+
+</LinearLayout>
